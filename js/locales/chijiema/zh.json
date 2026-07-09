@@ -1,0 +1,19 @@
+{
+    "about_name": "马驰捷",
+    "about_title": "樱桃科技创始人 / CTO",
+    "about_bio": "18年以上大型商用系统开发经验，具备8年以上系统架构与研发团队管理经验，具备5年以上需求管理、产品设计、系统架构、系统研发、系统测试、系统版本迭代及线上运维管理经验。专注于高并发、分布式、高可用与微服务生态。自主发的MainTank框架积累并升华了本人在金融行业、彩票投注系统、彩票即开票（刮刮乐从奖等派奖算法至印刷厂全流程）系统、跨境支付系统、数字货币（btc、eth）交易所系统、1v1直播录播平台等研发经验。主导MainTank架构单体服务、SpringCloud微服务架构、SaaS 多租户、B2B2C、S2B2C 产业平台的全栈演进，涵盖了PC端和移动端的管理平台、商户平台、客户平台。目前普通商品类通用条形码数据积累至80万，医疗医药商品类通用条形码数据积累至20万。",
+    "about_exp_title": "工作经历",
+    "about_exp_period1": "2024 - 至今 | 北京樱桃科技有限公司 · 合伙人 / 技术总监 / MainTank 架构师",
+    "about_exp_desc1_1": "主导 MainTank 整体架构设计，实现从单体（SpringBoot多模块单体服务）到 <strong>微服务架构</strong> 的演进，基于 Spring Cloud Alibaba 拆分 10+ 独立服务，支撑日均千万级 API 调用。",
+    "about_exp_desc1_2": "设计并落地 <strong>SaaS 多租户商城方案</strong>，包括租户隔离、套餐授权、独立域名、统一运维与监控。",
+    "about_exp_desc1_3": "构建 <strong>S2B2C 供应链协同平台</strong>，打通供应商、店铺、用户三端，实现商品代理、订单协同、库存同步与结算对账，在多个产业带成功上线。",
+    "about_exp_desc1_4": "带领团队完成 Kubernetes 容器化改造、CI/CD 流水线建设、灰度发布与全链路追踪，保障系统 99.99% 可用性。",
+    "about_edu_title": "教育背景",
+    "about_edu_desc": "中国地质大学（北京）继续教育学院 · 软件工程 · 本科/学士学位",
+    "about_edu_detail": "在校期间获得银牌，毕业设计评为优秀，并获得学士学位证书",
+    "about_skills_title": "专业技能",
+    "about_arch_title": "MainTank架构设计",
+    "about_module_title": "MainTank系统模块",
+    "about_contact_title": "联系方式",
+    "about_contact_desc": "邮箱：<a href='mailto:chijiema@gmail.com'>chijiema@gmail.com</a><br />GitHub：<a href='https://github.com' target='_blank'>https://github.com</a><br />技术博客：<a href='#' target='_blank'>blog.chijiema.cn</a>"
+}
