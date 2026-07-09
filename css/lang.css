@@ -1,0 +1,115 @@
+/* ===== 桌面语言切换 ===== */
+.lang-dropdown {
+    position: relative;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+.lang-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--ink-muted);
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    font-family: inherit;
+}
+.lang-toggle:hover {
+    background: #f0f0f5;
+    border-color: var(--border);
+}
+.lang-toggle .lang-flag {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+.lang-toggle .lang-text {
+    font-weight: 500;
+}
+.lang-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 160px;
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.10);
+    padding: 6px 0;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+.lang-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.lang-menu li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    font-size: 13px;
+    color: var(--ink-muted);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+.lang-menu li:hover {
+    background: #f5f5fa;
+    color: var(--ink);
+}
+.lang-menu li.active {
+    color: var(--sub-accent);
+    font-weight: 600;
+}
+.lang-menu li svg {
+    flex-shrink: 0;
+}
+
+/* ===== 移动端语言切换 ===== */
+.mobile-lang-section {
+    padding: 16px 24px;
+    border-top: 1px solid #f0f0f5;
+    margin-top: 8px;
+}
+.mobile-lang-section .mobile-lang-label {
+    font-size: 13px;
+    color: var(--ink-muted);
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+.mobile-lang-section .mobile-lang-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.mobile-lang-section .mobile-lang-options button {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: transparent;
+    font-size: 13px;
+    color: var(--ink-muted);
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.mobile-lang-section .mobile-lang-options button:hover {
+    background: #f0f0f5;
+}
+.mobile-lang-section .mobile-lang-options button.active {
+    background: var(--sub-accent);
+    color: #fff;
+    border-color: var(--sub-accent);
+}
