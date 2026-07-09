@@ -339,6 +339,23 @@
             module_arrow_build: 'Build',
             module_arrow_implement: 'Implement',
 
+            // 技能标签 
+            skill_java: 'Java',
+            skill_spring_cloud: 'Spring Cloud Alibaba',
+            skill_kubernetes: 'Kubernetes',
+            skill_docker: 'Docker',
+            skill_mysql: 'MySQL',
+            skill_redis: 'Redis',
+            skill_rocketmq: 'RocketMQ',
+            skill_elasticsearch: 'Elasticsearch',
+            skill_vue: 'Vue.js',
+            skill_cicd: 'CI/CD',
+            skill_microservice: '微服务架构',
+            skill_saas: 'SaaS 多租户',
+            skill_s2b2c: 'S2B2C 供应链',
+            skill_distributed_tx: '分布式事务',
+            skill_gray_release: '灰度发布',
+
         },
         'zh-HK': {
             page_title: '關於 - MainTank',
@@ -499,6 +516,21 @@
             module_arrow_build: '構建',
             module_arrow_implement: '實現',
 
+            skill_java: 'Java',
+            skill_spring_cloud: 'Spring Cloud Alibaba',
+            skill_kubernetes: 'Kubernetes',
+            skill_docker: 'Docker',
+            skill_mysql: 'MySQL',
+            skill_redis: 'Redis',
+            skill_rocketmq: 'RocketMQ',
+            skill_elasticsearch: 'Elasticsearch',
+            skill_vue: 'Vue.js',
+            skill_cicd: 'CI/CD',
+            skill_microservice: '微服務架構',
+            skill_saas: 'SaaS 多租戶',
+            skill_s2b2c: 'S2B2C 供應鏈',
+            skill_distributed_tx: '分佈式事務',
+            skill_gray_release: '灰度發佈',
         }
     };
 

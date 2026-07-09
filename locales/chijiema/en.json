@@ -155,6 +155,22 @@
   "footer_text2": "Based on Java · H5 · App · PC",
 
   "module_arrow_build": "Build",
-  "module_arrow_implement": "Implement"
+  "module_arrow_implement": "Implement",
+
+  "skill_java": "Java",
+  "skill_spring_cloud": "Spring Cloud Alibaba",
+  "skill_kubernetes": "Kubernetes",
+  "skill_docker": "Docker",
+  "skill_mysql": "MySQL",
+  "skill_redis": "Redis",
+  "skill_rocketmq": "RocketMQ",
+  "skill_elasticsearch": "Elasticsearch",
+  "skill_vue": "Vue.js",
+  "skill_cicd": "CI/CD",
+  "skill_microservice": "Microservices Architecture",
+  "skill_saas": "SaaS Multi-Tenant",
+  "skill_s2b2c": "S2B2C Supply Chain",
+  "skill_distributed_tx": "Distributed Transaction",
+  "skill_gray_release": "Canary Release"
 
 }
