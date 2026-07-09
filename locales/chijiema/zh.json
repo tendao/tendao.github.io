@@ -152,5 +152,9 @@
     "about_contact_title": "联系方式",
     "about_contact_desc": "邮箱：<a href='mailto:chijiema@gmail.com'>chijiema@gmail.com</a><br />GitHub：<a href='https://github.com' target='_blank'>https://github.com</a><br />技术博客：<a href='#' target='_blank'>blog.chijiema.cn</a>",
     "footer_text1": "© 2026 MainTank · 樱桃科技有限公司",
-    "footer_text2": "基于 Java 的 · H5 · App · PC"
+    "footer_text2": "基于 Java 的 · H5 · App · PC",
+
+    "module_arrow_build": "构建",
+    "module_arrow_implement": "实现"
+
 }

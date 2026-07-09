@@ -152,5 +152,9 @@
   "about_contact_title": "Contact",
   "about_contact_desc": "Email: <a href='mailto:chijiema@gmail.com'>chijiema@gmail.com</a><br />GitHub: <a href='https://github.com' target='_blank'>https://github.com</a><br />Blog: <a href='#' target='_blank'>blog.chijiema.cn</a>",
   "footer_text1": "© 2026 MainTank · Cherry Technology Co., Ltd. ",
-  "footer_text2": "Based on Java · H5 · App · PC"
+  "footer_text2": "Based on Java · H5 · App · PC",
+
+  "module_arrow_build": "Build",
+  "module_arrow_implement": "Implement"
+
 }

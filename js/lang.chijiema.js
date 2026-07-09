@@ -173,7 +173,12 @@
             about_contact_title: '联系方式',
             about_contact_desc: '邮箱：<a href="mailto:chijiema@gmail.com">chijiema@gmail.com</a><br />GitHub：<a href="https://github.com" target="_blank">https://github.com</a><br />技术博客：<a href="#" target="_blank">blog.chijiema.cn</a>',
             footer_text1: '© 2026 MainTank · 樱桃科技有限公司',
-            footer_text2: '基于 Java 的 · H5 · App · PC'
+            footer_text2: '基于 Java 的 · H5 · App · PC',
+
+            // 模块图 - 箭头文字
+            module_arrow_build: '构建',
+            module_arrow_implement: '实现',
+
         },
         en: {
             page_title: 'About - MainTank',
@@ -329,7 +334,11 @@
             about_contact_title: 'Contact',
             about_contact_desc: 'Email: <a href="mailto:chijiema@gmail.com">chijiema@gmail.com</a><br />GitHub: <a href="https://github.com" target="_blank">https://github.com</a><br />Blog: <a href="#" target="_blank">blog.chijiema.cn</a>',
             footer_text1: '© 2026 MainTank · Cherry Technology Co., Ltd.',
-            footer_text2: 'Based on Java · H5 · App · PC'
+            footer_text2: 'Based on Java · H5 · App · PC',
+
+            module_arrow_build: 'Build',
+            module_arrow_implement: 'Implement',
+
         },
         'zh-HK': {
             page_title: '關於 - MainTank',
@@ -485,7 +494,11 @@
             about_contact_title: '聯繫方式',
             about_contact_desc: '郵箱：<a href="mailto:chijiema@gmail.com">chijiema@gmail.com</a><br />GitHub：<a href="https://github.com" target="_blank">https://github.com</a><br />技術博客：<a href="#" target="_blank">blog.chijiema.cn</a>',
             footer_text1: '© 2026 MainTank · 櫻桃科技有限公司',
-            footer_text2: '基於 Java 的 · H5 · App · PC'
+            footer_text2: '基於 Java 的 · H5 · App · PC',
+
+            module_arrow_build: '構建',
+            module_arrow_implement: '實現',
+
         }
     };
 
