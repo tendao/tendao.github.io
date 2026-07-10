@@ -39,7 +39,13 @@
                 nav_product_service_ai: 'AI大模型平台',
                 nav_video: '影片',
                 footer_text1: "© 2026 MainTank · 樱桃科技有限公司",
-                footer_text2: "基于 Java 的 · H5 · App · PC"
+                footer_text2: "基于 Java 的 · H5 · App · PC",
+                sponsor_title: '☕️ 赞助支持',
+                sponsor_subtitle: '如果对您有帮助，欢迎打赏支持',
+                sponsor_footer: '感谢您的支持 ❤️',
+                sponsor_wechatpay: '微信支付',
+                sponsor_alipay_hk: '支付宝（香港）',
+                sponsor_paypal: '贝宝',
             },
             en: {
                 page_title: 'MainTank',
@@ -61,7 +67,13 @@
                 nav_education: 'Education',
                 nav_video: 'Videos',
                 footer_text1: "© 2026 MainTank · 樱桃科技有限公司",
-                footer_text2: "Based on Java · H5 · App · PC"
+                footer_text2: "Based on Java · H5 · App · PC",
+                sponsor_title: '☕️ Sponsorship Support',
+                sponsor_subtitle: 'Welcome to support us with donations',
+                sponsor_footer: 'Thank you for your support ❤️',
+                sponsor_wechatpay: 'Wechat Pay',
+                sponsor_alipay_hk: 'Alipay HK',
+                sponsor_paypal: 'PayPal',
             },
             'zh-HK': {
                 page_title: 'MainTank',
@@ -83,7 +95,13 @@
                 nav_education: '教育方案',
                 nav_video: '影片',
                 footer_text1: "© 2026 MainTank · 樱桃科技有限公司",
-                footer_text2: "基於 Java 的 · H5 · App · PC"
+                footer_text2: "基於 Java 的 · H5 · App · PC",
+                sponsor_title: '☕️ 贊助支持',
+                sponsor_subtitle: '歡迎打賞支持',
+                sponsor_footer: '感謝您的支持 ❤️',
+                sponsor_wechatpay: '微信支付',
+                sponsor_alipay_hk: '支付寶（香港）',
+                sponsor_paypal: 'PayPal',
             }
         }
     };

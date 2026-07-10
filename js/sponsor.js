@@ -66,26 +66,26 @@
             <div class="sponsor-modal__overlay"></div>
             <div class="sponsor-modal__panel">
                 <button class="sponsor-modal__close" id="sponsorClose" aria-label="关闭赞助窗口">✕</button>
-                <h3 class="sponsor-modal__title">${config.title}</h3>
-                <p class="sponsor-modal__sub">${config.subtitle}</p>
+                <h3 class="sponsor-modal__title" data-i18n="common.sponsor_title">${config.title}</h3>
+                <p class="sponsor-modal__sub" data-i18n="common.sponsor_subtitle">${config.subtitle}</p>
                 <div class="sponsor-modal__qrs">
                     <div class="sponsor-qr" data-payment="wechat">
                         <img src="${config.wechat}" alt="微信收款码" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
                         <span class="sponsor-qr__fallback">微信支付</span>
-                        <p class="sponsor-qr__label">${config.wechatLabel}</p>
+                        <p class="sponsor-qr__label" data-i18n="common.sponsor_wechatpay">${config.wechatLabel}</p>
                     </div>
                     <div class="sponsor-qr" data-payment="alipay">
                         <img src="${config.alipay}" alt="支付宝收款码" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
                         <span class="sponsor-qr__fallback">支付宝香港</span>
-                        <p class="sponsor-qr__label">${config.alipayLabel}</p>
+                        <p class="sponsor-qr__label" data-i18n="common.sponsor_alipay_hk">${config.alipayLabel}</p>
                     </div>
                     <div class="sponsor-qr" data-payment="paypal">
                         <img src="${config.paypal}" alt="PayPal 收款码" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
                         <span class="sponsor-qr__fallback">PayPal</span>
-                        <p class="sponsor-qr__label">${config.paypalLabel}</p>
+                        <p class="sponsor-qr__label" data-i18n="common.sponsor_paypal">${config.paypalLabel}</p>
                     </div>
                 </div>
-                <p class="sponsor-modal__footer">${config.footer}</p>
+                <p class="sponsor-modal__footer" data-i18n="common.sponsor_footer">${config.footer}</p>
             </div>
         `;
 
