@@ -33,7 +33,7 @@
         wechat: 'assets/qr-wechat.png',
         alipay: 'assets/qr-alipayHK.png',
         paypal: 'assets/qr-paypal.png',
-        wechatLabel: '微信',
+        wechatLabel: 'Wechat Pay',
         alipayLabel: 'Alipay HK',
         paypalLabel: 'PayPal',
         longPressDelay: 750, // 长按触发延迟（毫秒）
@@ -71,17 +71,17 @@
                 <div class="sponsor-modal__qrs">
                     <div class="sponsor-qr" data-payment="wechat">
                         <img src="${config.wechat}" alt="微信收款码" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
-                        <span class="sponsor-qr__fallback">微信（请替换二维码图片）</span>
+                        <span class="sponsor-qr__fallback">微信支付</span>
                         <p class="sponsor-qr__label">${config.wechatLabel}</p>
                     </div>
                     <div class="sponsor-qr" data-payment="alipay">
                         <img src="${config.alipay}" alt="支付宝收款码" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
-                        <span class="sponsor-qr__fallback">支付宝（请替换二维码图片）</span>
+                        <span class="sponsor-qr__fallback">支付宝香港</span>
                         <p class="sponsor-qr__label">${config.alipayLabel}</p>
                     </div>
                     <div class="sponsor-qr" data-payment="paypal">
                         <img src="${config.paypal}" alt="PayPal 收款码" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
-                        <span class="sponsor-qr__fallback">PayPal（请替换二维码图片）</span>
+                        <span class="sponsor-qr__fallback">PayPal</span>
                         <p class="sponsor-qr__label">${config.paypalLabel}</p>
                     </div>
                 </div>
